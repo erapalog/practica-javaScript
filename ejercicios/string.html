@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Manejo de cadenas</h1>
+</body>
+<script>
+
+    var mensaje="Hola Mundo";
+    //tamano de la cadena
+    console.log("Tamano de la cadena",mensaje.length);
+
+    var mensaje2="a todos";
+
+    var mensaje3=mensaje+mensaje2;
+    console.log(mensaje3);
+
+
+    var mensajeSaltoLina="Hola Mundo \n";
+
+    mensaje3=mensajeSaltoLina+mensaje;
+    console.log(mensaje3);
+
+    // variables booleanas
+    var valorBooleano=false;
+    console.log(valorBooleano);
+
+    // tipo de datos undefined y null y NaN
+
+    //undefined
+    var nombre;
+    console.log(nombre);
+
+    //variables null
+    var apellido=null;
+    console.log(apellido);
+
+    //tipo de dato string
+    var tipoDato= typeof(mensaje3);
+    console.log(tipoDato);
+
+    //tipo de dato numero
+    var numero=5;
+
+    tipoDato=typeof(numero);
+    console.log(tipoDato)
+
+    //tipo de dato Numero
+    numero=15.5;
+    console.log(typeof(numero));
+
+    //tipo de datos booleanos
+    console.log(typeof(valorBooleano));
+
+    // tipo de datos indefinido
+    console.log(typeof(nombre));
+
+
+</script>
+
+</html>
